@@ -17,6 +17,11 @@
 - 3X Fast Python with Pyrogram and Py-Tgcalls Based Bot ⚜
 - Easy To Use! 😋
 
+### 💜 Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/syahrizalemano/AnoMUsic)
+
+
 ## 🔎 Inline Search Support
 - just type the bot username in any chat, example: "`@AnoMusicBot Faded Alan Walker`", then bot will give you a results of the query you search in inline mode.
 
