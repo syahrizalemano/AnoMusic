@@ -36,7 +36,7 @@ boottime = time.time()
 ### Clients
 app = app
 userbot = userbot
-aiohttpsession = Session
+aiohttpsession = ClientSession()
 
 ### Config
 SUDOERS = SUDO_USERS
