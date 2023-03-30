@@ -74,6 +74,13 @@ async def initiate_bot():
         console.print("╭─⊸➢ [red]Booting Up The Clients...\n")
         await app.start()
         await userbot.start()
+        try:
+    do_something()
+except OSError as exc:
+    if exc.errno == 36:
+        handle_filename_too_long()
+    else:
+        raise  # re-raise previously caught exception
         console.print("╰─⊸➢ [green]Clients Booted Successfully!")
         initial = await startup_send_new("Starting Ano Music...")
         await asyncio.sleep(0.5)
