@@ -36,7 +36,7 @@ boottime = time.time()
 ### Clients
 app = app
 userbot = userbot
-aiohttpsession = ClientSession()
+aiohttpsession = AnoMusic
 
 ### Config
 SUDOERS = SUDO_USERS
